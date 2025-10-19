@@ -16,7 +16,8 @@ namespace Tyuiu.PlatonovMV.Sprint3.Task2.V11.Lib
                 i++;
             } while (i <= stopValue);
 
-            return Math.Round(result, 6);
+            
+            return Math.Round(result, 2);
         }
     }
 }
