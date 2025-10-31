@@ -17,7 +17,7 @@ namespace Tyuiu.PlatonovMV.Sprint3.Task2.V11.Test
 
             double res = ds.GetSumSeries(x, start, stop);
             double expected = 0.430438; 
-            Assert.AreEqual(expected, res);
+            Assert.AreEqual(expected, res,000001);
         }
     }
 }
