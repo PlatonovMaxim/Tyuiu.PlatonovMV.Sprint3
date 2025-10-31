@@ -10,7 +10,7 @@ namespace Tyuiu.PlatonovMV.Sprint3.Task7.V11.Lib
             double[] res = new double[len];
             int count = 0;
 
-            for (int x = startValue; x <= stopValue; x++)
+            for (int x = startValue; x <= stopValue; x++) 
             {
                 double znam = 2 - 2 * x;
 
@@ -20,7 +20,7 @@ namespace Tyuiu.PlatonovMV.Sprint3.Task7.V11.Lib
                     count++;
                     continue;
                 }
-
+                //F(x) = cos(x) + sin(x)/(2-2x) - 4x на диапазоне [-5; 5]  
                 double y = Math.Cos(x) + Math.Sin(x) / znam - 4 * x;
                 res[count] = Math.Round(y, 2);
                 count++;
@@ -30,3 +30,4 @@ namespace Tyuiu.PlatonovMV.Sprint3.Task7.V11.Lib
         }
     }
 }
+//

@@ -18,3 +18,4 @@ namespace Tyuiu.PlatonovMV.Sprint3.Task7.V11.Test
         }
     }
 }
+//F(x) = cos(x) + sin(x)/(2-2x) - 4x на диапазоне [-5; 5]   
